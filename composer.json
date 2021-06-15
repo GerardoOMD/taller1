@@ -1,0 +1,19 @@
+{
+    "name": "gerardoom/taller1_package",
+    "description": "Test",
+    "license": "MIT",
+    "authors": [{
+        "name": "GerardoOMD",
+        "email": "gerardoomd@gmail.com"
+    }],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.00",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elastic\\": "src/"
+        }
+    }
+}
